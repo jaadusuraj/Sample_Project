@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Project">
+
+    <listeners>
+        <listener class-name="org.para.listeners.ExtentReportListener"></listener>
+    </listeners>
+
+    <test name="Para Bank Testing">
+        <classes>
+            <class name="org.para.testcases.SignUpPageTest"></class>
+            <class name="org.para.testcases.LoginTest"></class>
+            <class name="org.para.testcases.AboutUsTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,4 @@
+2024-02-29 23:32:20,508 DEBUG [main] LoginTest:34 - Verifying Page Title
+2024-02-29 23:32:20,908 DEBUG [main] LoginTest:48 - Closing the window
+2024-02-29 23:32:30,220 DEBUG [main] LoginTest:41 - Login into application
+2024-02-29 23:32:30,598 DEBUG [main] LoginTest:48 - Closing the window

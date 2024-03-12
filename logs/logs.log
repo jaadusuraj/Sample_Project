@@ -1,0 +1,4 @@
+[INFO ] 2024-03-07 04:38:28.031 [main] LoginTest - Initializing browser
+[INFO ] 2024-03-07 04:38:28.071 [main] LoginTest - Verifying Page Title
+[INFO ] 2024-03-07 04:38:29.119 [main] LoginTest - Login into para soft bank application
+[DEBUG] 2024-03-07 04:38:29.670 [main] LoginTest - Closing the window
