@@ -38,7 +38,7 @@ public class TestUtil extends TestBase {
     {
         FileInputStream file = null;
         try {
-            file = new FileInputStream("C:\\Users\\css123557\\Documents\\Flip\\Sample_Project\\src\\main\\java\\org\\para\\testdata\\Register_Data.xlsx");
+            file = new FileInputStream("src/main/java/org/para/testdata/Register_Data.xlsx");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

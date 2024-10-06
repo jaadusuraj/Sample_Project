@@ -16,6 +16,8 @@ public class AboutUsPage extends TestBase {
     @FindBy(xpath = "//h1")
     WebElement heading;
 
+
+
     public String getHeader()
     {
         return heading.getText();

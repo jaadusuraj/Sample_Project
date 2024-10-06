@@ -17,10 +17,18 @@ public class HomePage extends TestBase {
     @FindBy(xpath = "//a[contains(text(),'Register')]")
     WebElement registerLink;
 
+    @FindBy(xpath = "//div[@id='headerPanel']/ul[1]/li[2]")
+    WebElement aboutUsLink;
+
     public SignUpPage clickOnRegisterLink()
     {
-        //TestUtil.clickOnElement(registerLink);
-        registerLink.click();
+        TestUtil.clickOnElement(registerLink);
+        //registerLink.click();
         return new SignUpPage();
+    }
+
+    public void clickOnAboutUsLink()
+    {
+        TestUtil.clickOnElement(aboutUsLink);
     }
 }

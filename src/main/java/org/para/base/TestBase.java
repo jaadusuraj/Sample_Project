@@ -24,7 +24,7 @@ public class TestBase{
     {
         try {
                 prop = new Properties();
-                FileInputStream fip = new FileInputStream("C:\\Users\\css123557\\Documents\\Flip\\Sample_Project\\src\\main\\java\\org\\para\\config\\config.properties");
+                FileInputStream fip = new FileInputStream("src/main/java/org/para/config/config.properties");
                 prop.load(fip);
         }catch (FileNotFoundException e)
         {
@@ -41,10 +41,10 @@ public class TestBase{
         String browserName = prop.getProperty("browser");
         if(browserName.equals("chrome"))
         {
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\css123557\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","src/main/java/org/para/executables/chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browserName.equals("FF")) {
-            System.setProperty("webdriver.gecko.driver","C:\\Users\\css123557\\Downloads\\geckodriver-win64\\geckodriver-win64\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver","src/main/java/org/para/executables/geckodriver.exe");
             driver = new FirefoxDriver();
 
         }

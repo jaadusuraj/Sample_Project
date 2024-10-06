@@ -3,7 +3,7 @@ import com.aventstack.extentreports.ExtentTest;
 import org.testng.*;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.Status;
 
 public class ExtentReportListener implements ITestListener {
@@ -13,7 +13,7 @@ public class ExtentReportListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("Automation_Report.html");
+        ExtentSparkReporter htmlReporter = new ExtentSparkReporter("Automation_Report.html");
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
     }

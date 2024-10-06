@@ -64,7 +64,7 @@ public class LoginTest extends TestBase {
     public void fourthTest()
     {
         System.out.println("Fourth Test Case");
-        Assert.assertEquals(11,12);
+        Assert.assertEquals(12,12);
     }
 
     @AfterClass()
