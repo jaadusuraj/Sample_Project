@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    tools {
+        maven "MavenTest"
+    }
+
+    stages {
+        stage('Fetching from GIT') {
+            steps {
+               echo 'Pulling..';
+                git branch: 'master',
+                url: 'https://github.com/jaadusuraj/Para_Bank_Testing.git';
+            }
+        }
+
+    stage('Cleaning target') {
+
+            steps {
+                echo 'Cleaning Project ...'
+                bat 'mvn clean'
+            }
+        }
+
+    stage('Running test cases') {
+
+            steps {
+                echo 'Running Test ...'
+                bat 'mvn test'
+            }
+    }
+
+    stage('Artifact Construction') {
+
+            steps {
+                echo "artificat contruction"
+                bat 'mvn package -DskipTests'
+            }
+        }
+
+    }
+}

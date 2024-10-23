@@ -1,8 +1,7 @@
-[DEBUG] 2024-10-06 15:06:16.024 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-[DEBUG] 2024-10-06 15:06:16.033 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-[DEBUG] 2024-10-06 15:06:16.074 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-[INFO ] 2024-10-06 15:06:21.662 [main] LoginTest - Initializing browser
-[INFO ] 2024-10-06 15:06:22.341 [main] LoginTest - Verifying Page Title
-[INFO ] 2024-10-06 15:06:24.561 [main] LoginTest - Login into para soft bank application
-[DEBUG] 2024-10-06 15:06:24.566 [main] LoginTest - Debugging third case
-[DEBUG] 2024-10-06 15:06:26.130 [main] LoginTest - Closing the window
+[DEBUG] 2024-10-23 17:37:55.523 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-10-23 17:37:55.541 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2024-10-23 17:37:55.616 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-10-23 17:38:00.621 [main] LoginTest - Initializing browser
+[INFO ] 2024-10-23 17:38:00.971 [main] LoginTest - Verifying Page Title
+[INFO ] 2024-10-23 17:38:02.337 [main] LoginTest - Login into para soft bank application
+[DEBUG] 2024-10-23 17:38:02.814 [main] LoginTest - Closing the window
