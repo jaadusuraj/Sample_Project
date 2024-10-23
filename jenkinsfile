@@ -10,7 +10,7 @@ pipeline {
             steps {
                echo 'Pulling..';
                 git branch: 'master',
-                url: 'https://github.com/jaadusuraj/Para_Bank_Testing.git';
+                url: 'https://github.com/jaadusuraj/Sample_Project.git';
             }
         }
 
